@@ -10,7 +10,7 @@ To use this template, scaffold a project with [kdu-cli](https://github.com/khanh
 
 ``` bash
 $ npm install -g kdu-cli
-$ kdu init webpack my-project
+$ kdu init kdujs-templates-webpack my-project
 $ cd my-project
 $ npm install
 $ npm run dev

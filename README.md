@@ -21,7 +21,7 @@ This is a project template for [kdu-cli](https://github.com/khanhduy1407/kdu-cli
 
 ``` bash
 $ npm install -g kdu-cli
-$ kdu init webpack my-project
+$ kdu init kdujs-templates-webpack my-project
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -30,7 +30,7 @@ $ npm run dev
 This will scaffold the project using the `master` branch. If you wish to use the latest version of the webpack template, do the following instead:
 
 ``` bash
-$ kdu init webpack#develop my-project
+$ kdu init kdujs-templates-webpack#develop my-project
 ```
 
 :warning: **The develop branch is not considered stable and can contain bugs or not build at all, so use at your own risk.**
